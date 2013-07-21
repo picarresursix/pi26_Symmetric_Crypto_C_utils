@@ -70,4 +70,10 @@ Functions and macros are provided to easily:
 + Easily read/write arrays of dynamic size from stdin/to stdout.
 + Fiddle with bits (access a specific one, etc).
 
+Copyright
+---------
+
+This software is released under a BSD licence except for the Mersennes
+Twister: this is code I'm borrowing and which was released under GPL
+(I might change this module soon).
 
