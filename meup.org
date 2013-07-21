@@ -1,0 +1,30 @@
+#+TITLE: Pi²/6 SC-C Utils
+#+DESCRIPTION: C utilities to work with symmetric cryptography.
+#+AUTHOR: Leo "picarresursix" Perrin <leoperrin@picarresursix.fr>
+#+DATE: Time-stamp: <2013-07-21 22:29:52 leo>
+#+STARTUP: hidestars indent align
+
+
+
+
+* Project description
+Function that are intended to be useful when working on symmetric
+cryptography in C.
+
+!INCLUDE! *\.[hc]
+
+* Coding convention
+** Modules
+The functions are organized into modules. The names of the functions
+in each module must start with =pi26_<module name>= where =<module
+name>= is, for instance, =rand= for functions connected with
+pseudo-random number generation. Each module must have a header =.h=
+** Parameters
+The parameters which are modified during the execution of a function
+must be the first ones in the list. Parameters modified are
+pointer(not references).
+** Macros
+Macros are uppercased and must also start with =PI26_<MODULE_NAME>=.
+
+* Items
+
